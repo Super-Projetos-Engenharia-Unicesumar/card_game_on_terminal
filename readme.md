@@ -94,4 +94,4 @@ Vence o jogo aquele que tiver 3 pontos de vitória.
 
 Então, como é possível perceber, somos apaixonados por testes e optamos por colocar testes para serem realizados ao longo e aprender a escrever testes para aplicação.
 
-Para executar os testes, na raiz do projeto use o comando `deno test`, ele irá executar todos os testes que existem disponíveis dentro do projeto.
+Para executar os testes, na raiz do projeto use o comando `deno test -A`, ele irá executar todos os testes que existem disponíveis dentro do projeto.
