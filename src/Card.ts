@@ -1,3 +1,5 @@
+import Random from "./Random.ts";
+
 /**
  * Tipo opcional para construtor da classe `Card`
  * Cada argumento neste tipo é opcional
@@ -48,5 +50,21 @@ export default class Card {
         this.control = option.control;
       }
     }
+  }
+
+  /**
+   * Esta é uma carta aleatória.
+   * Esse método é estático e retorna o objecto da carta construído.
+   * @returns Carta aleatória
+   */
+  static async random(): Promise<Card> {
+    const card = new Card();
+
+    card.name = await Random.nameFromJson();
+    card.power = Random.range(1, 10);
+    card.speed = Random.range(1, 10);
+    card.control = Random.range(1, 10);
+
+    return card;
   }
 }

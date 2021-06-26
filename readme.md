@@ -27,7 +27,7 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
   - [x] Propriedade `power`
   - [x] Propriedade `speed`
   - [x] Propriedade `control`
-  - [ ] Implementar método `random`
+  - [x] Implementar método `random`
 - [ ] Criar classe de `Deck`
   - [x] Propriedade `name`
   - [x] Propriedade `cards`

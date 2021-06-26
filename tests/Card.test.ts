@@ -1,4 +1,7 @@
-import { assertEquals } from "https://deno.land/std@0.99.0/testing/asserts.ts";
+import {
+  assertEquals,
+  assertNotEquals,
+} from "https://deno.land/std@0.99.0/testing/asserts.ts";
 import Card from "../src/Card.ts";
 
 /**
@@ -30,4 +33,12 @@ Deno.test("Deve ter uma carta com os dados do objeto", () => {
   assertEquals(card.power, 1);
   assertEquals(card.speed, 2);
   assertEquals(card.control, 3);
+});
+
+Deno.test("Deve gerar uma carta aleatória", async () => {
+  const card = await Card.random();
+  assertNotEquals(card.name, "");
+  assertNotEquals(card.power, 0);
+  assertNotEquals(card.speed, 0);
+  assertNotEquals(card.control, 0);
 });
