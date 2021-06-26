@@ -21,32 +21,36 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
     - [ ] Escolhe valor da carta
     - [ ] Verifica vencedor da rodada
     - [ ] Verifica se teve um vencedor da partida
-  - [ ] Criar função para coletar `input` do jogador
-  - [x] Criar classe de `Card`
-    - [x] Propriedade `name`
-    - [x] Propriedade `power`
-    - [x] Propriedade `speed`
-    - [x] Propriedade `control`
-  - [ ] Criar classe de `Deck`
-    - [x] Propriedade `name`
-    - [x] Propriedade `cards`
-    - [x] Propriedade `usedCards`
-    - [x] Implementar método `addCard`
-    - [x] Implementar método `addCards`
-    - [ ] Implementar método `loadDeck`
-    - [x] Implementar método `shuffle`
-    - [x] Implementar método `drawCard`
-  - [ ] Criar classe de `Round`
-    - [ ] Implementar método `start`
-    - [ ] Implementar método `playCard`
-    - [ ] Implementar método `checkWinner`
-  - [ ] Criar classe `Player`
-    - [ ] Propriedade `name`
-    - [ ] Propriedade `deck`
-    - [ ] Propriedade `victoryPoints`
-  - [ ] Criar classe `Game``
-    - [ ] Propriedade `players`
-
+- [ ] Criar função para coletar `input` do jogador
+- [x] Criar classe de `Card`
+  - [x] Propriedade `name`
+  - [x] Propriedade `power`
+  - [x] Propriedade `speed`
+  - [x] Propriedade `control`
+  - [ ] Implementar método `random`
+- [ ] Criar classe de `Deck`
+  - [x] Propriedade `name`
+  - [x] Propriedade `cards`
+  - [x] Propriedade `usedCards`
+  - [x] Implementar método `addCard`
+  - [x] Implementar método `addCards`
+  - [ ] Implementar método `loadDeck`
+  - [x] Implementar método `shuffle`
+  - [x] Implementar método `drawCard`
+  - [ ] Implementar método `generateRandomDeck` ?
+- [ ] Criar classe de `Round`
+  - [ ] Implementar método `start`
+  - [ ] Implementar método `playCard`
+  - [ ] Implementar método `checkWinner`
+- [ ] Criar classe `Player`
+  - [ ] Propriedade `name`
+  - [ ] Propriedade `deck`
+  - [ ] Propriedade `victoryPoints`
+- [ ] Criar classe `Game``
+  - [ ] Propriedade `players`
+- [x] Criar classe `Random`
+  - [x] Implementar método `nameFromJson`
+  - [x] Implementar método `range`
 
 # O que preciso para rodar esse projeto?
 
