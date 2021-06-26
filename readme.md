@@ -24,9 +24,9 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
   - [ ] Criar função para coletar `input` do jogador
   - [x] Criar classe de `Card`
     - [x] Propriedade `name`
-    - [x] Propriedade `poder`
-    - [x] Propriedade `rapidez`
-    - [x] Propriedade `controle`
+    - [x] Propriedade `power`
+    - [x] Propriedade `speed`
+    - [x] Propriedade `control`
   - [ ] Criar classe de `Deck`
     - [ ] Propriedade `cards`: Array de `card`
     - [ ] Propriedade `usedCards`
