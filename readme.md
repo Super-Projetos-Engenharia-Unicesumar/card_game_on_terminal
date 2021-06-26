@@ -33,7 +33,7 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
     - [x] Propriedade `usedCards`
     - [x] Implementar método `addCard`
     - [x] Implementar método `addCards`
-    - [] Implementar método `loadDeck`
+    - [ ] Implementar método `loadDeck`
     - [x] Implementar método `shuffle`
     - [x] Implementar método `drawCard`
   - [ ] Criar classe de `Round`
