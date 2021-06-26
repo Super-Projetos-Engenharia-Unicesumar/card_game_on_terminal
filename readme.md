@@ -22,11 +22,11 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
     - [ ] Verifica vencedor da rodada
     - [ ] Verifica se teve um vencedor da partida
   - [ ] Criar função para coletar `input` do jogador
-  - [ ] Criar classe de `Card`
-    - [ ] Propriedade `name`
-    - [ ] Propriedade `poder`
-    - [ ] Propriedade `rapidez`
-    - [ ] Propriedade `controle`
+  - [x] Criar classe de `Card`
+    - [x] Propriedade `name`
+    - [x] Propriedade `poder`
+    - [x] Propriedade `rapidez`
+    - [x] Propriedade `controle`
   - [ ] Criar classe de `Deck`
     - [ ] Propriedade `cards`: Array de `card`
     - [ ] Propriedade `usedCards`
