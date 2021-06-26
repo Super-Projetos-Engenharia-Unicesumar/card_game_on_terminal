@@ -31,11 +31,11 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
     - [x] Propriedade `name`
     - [x] Propriedade `cards`
     - [x] Propriedade `usedCards`
-    - [ ] Implementar método `addCard`
-    - [ ] Implementar método `addCards`
-    - [ ] Implementar método `loadDeck`
-    - [ ] Implementar método `shuffle`
-    - [ ] Implementar método `drawCard`
+    - [x] Implementar método `addCard`
+    - [x] Implementar método `addCards`
+    - [] Implementar método `loadDeck`
+    - [x] Implementar método `shuffle`
+    - [x] Implementar método `drawCard`
   - [ ] Criar classe de `Round`
     - [ ] Implementar método `start`
     - [ ] Implementar método `playCard`
