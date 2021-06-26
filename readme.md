@@ -7,6 +7,7 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
 # To-Do: O que falta?
 
 - [x] Criar arquivos de `.vscode` para `Deno`
+- [x] Versão inicial do menu principal com demonstração do loop
 - [ ] Menu inicial que irá direcionar ao Loop do jogo
   - [ ] Criar menu inicial com: `Jogar`, `Regras`, `Sair`
   - [ ] Criar mensagem de entrada no jogo
