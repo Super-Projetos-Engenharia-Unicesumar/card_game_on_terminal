@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.99.0/testing/asserts.ts";
-import Card from "./Card.ts";
+import Card from "../src/Card.ts";
 
 /**
  * Você pode não saber, mas testes em aplicações são muito importantes

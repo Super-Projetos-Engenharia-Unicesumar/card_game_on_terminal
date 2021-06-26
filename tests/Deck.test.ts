@@ -2,8 +2,8 @@ import {
   assertEquals,
   assertNotEquals,
 } from "https://deno.land/std@0.99.0/testing/asserts.ts";
-import Card from "./Card.ts";
-import Deck from "./Deck.ts";
+import Card from "../src/Card.ts";
+import Deck from "../src/Deck.ts";
 
 /**
  * Você pode não saber, mas testes em aplicações são muito importantes
