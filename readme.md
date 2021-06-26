@@ -14,7 +14,7 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
   - [ ] Criar mensagem para mostrar as regras do jogo
   - [ ] Criar mensagem de saída e encerrar o programa
 - [ ] Loop inicial do jogo
-  - [ ] Loop principal ~~ou fazer uma classe `Game`~~
+  - [ ] ~~Loop principal ou~~ fazer uma classe `Game`
     - [ ] Mostra total de pontos
     - [ ] Mostra cartas da mão
     - [ ] Escolhe carta da lista
@@ -37,6 +37,13 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
     - [ ] Implementar método `start`
     - [ ] Implementar método `playCard`
     - [ ] Implementar método `checkWinner`
+  - [ ] Criar classe `Player`
+    - [ ] Propriedade `name`
+    - [ ] Propriedade `deck`
+    - [ ] Propriedade `victoryPoints`
+  - [ ] Criar classe `Game``
+    - [ ] Propriedade `players`
+
 
 # O que preciso para rodar esse projeto?
 
