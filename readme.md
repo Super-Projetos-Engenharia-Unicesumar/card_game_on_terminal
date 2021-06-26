@@ -28,10 +28,13 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
     - [x] Propriedade `speed`
     - [x] Propriedade `control`
   - [ ] Criar classe de `Deck`
-    - [ ] Propriedade `cards`: Array de `card`
-    - [ ] Propriedade `usedCards`
+    - [x] Propriedade `name`
+    - [x] Propriedade `cards`
+    - [x] Propriedade `usedCards`
+    - [ ] Implementar método `addCard`
+    - [ ] Implementar método `addCards`
     - [ ] Implementar método `loadDeck`
-    - [ ] Implementar método `shufle`
+    - [ ] Implementar método `shuffle`
     - [ ] Implementar método `drawCard`
   - [ ] Criar classe de `Round`
     - [ ] Implementar método `start`
@@ -80,3 +83,9 @@ Uma vez que tenham escolhido a carta, elas são reveladas, assim como o valor es
 Se ambos tiverem vencido a comparação, ninguém ganha ponto. Se apenas um vencer a comparação, ganha um ponto de vitória.
 
 Vence o jogo aquele que tiver 3 pontos de vitória.
+
+# Bora testar também?
+
+Então, como é possível perceber, somos apaixonados por testes e optamos por colocar testes para serem realizados ao longo e aprender a escrever testes para aplicação.
+
+Para executar os testes, na raiz do projeto use o comando `deno test`, ele irá executar todos os testes que existem disponíveis dentro do projeto.
