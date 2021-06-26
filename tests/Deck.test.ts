@@ -64,3 +64,13 @@ Deno.test("Deve ser possível embaralhar o deck", () => {
 
   assertNotEquals(deck.cards[0].name, "Card 999");
 });
+
+Deno.test("Deve gerar um deck aleatório com 10 cartas", async () => {
+  const deck = await Deck.random();
+  assertEquals(deck.cards.length, 10);
+});
+
+Deno.test("Deve gerar um deck aleatório com 50 cartas", async () => {
+  const deck = await Deck.random(50);
+  assertEquals(deck.cards.length, 50);
+});

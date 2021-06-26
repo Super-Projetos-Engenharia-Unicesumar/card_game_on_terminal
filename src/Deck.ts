@@ -1,8 +1,9 @@
+import Random from "./Random.ts";
 import Card from "./Card.ts";
 
 /**
- * Esta é a classe que controla o deck. 
- * Tudo que é relacionado 
+ * Esta é a classe que controla o deck.
+ * Tudo que é relacionado
  * - a lista de cartas a pilha (`cards`)
  * - a lista de descarte (`usedCards`)
  * - a comprar cartas
@@ -24,7 +25,7 @@ export default class Deck {
   }
 
   /**
-   * Este método irá adicionar as cartas ao todo. 
+   * Este método irá adicionar as cartas ao todo.
    * A primeira carta do topo será a ultíma adicionada.
    * Se tiver uma pilha com [1, 2, 3], e for adicionar ao deck
    * ele ficará com [3, 2, 1], porque é do topo para cada
@@ -61,5 +62,25 @@ export default class Deck {
     } else {
       throw new Error("Lista de cartas está vazia.");
     }
+  }
+
+  /**
+   * Vai gerar um deck aleatório, com cartas aleatórias.
+   * Se pode definir a quantidade de cartas, mas o padrão é 10.
+   * @param amount Quantidade de cartas no deck. Default é 10
+   * @returns Retorna um `deck` com a quantidade de cartas
+   */
+  static async random(amount = 10): Promise<Deck> {
+    const deck = new Deck();
+    const cards: Card[] = [];
+
+    for (let i = 0; i < amount; i++) {
+      cards.push(await Card.random());
+    }
+
+    deck.name = await Random.nameFromJson();
+    deck.addCards(cards);
+
+    return deck;
   }
 }

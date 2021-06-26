@@ -37,7 +37,7 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
   - [ ] Implementar método `loadDeck`
   - [x] Implementar método `shuffle`
   - [x] Implementar método `drawCard`
-  - [ ] Implementar método `generateRandomDeck` ?
+  - [x] Implementar método `random`
 - [ ] Criar classe de `Round`
   - [ ] Implementar método `start`
   - [ ] Implementar método `playCard`
