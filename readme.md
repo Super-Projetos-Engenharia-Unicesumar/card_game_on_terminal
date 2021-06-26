@@ -51,6 +51,8 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
 - [x] Criar classe `Random`
   - [x] Implementar método `nameFromJson`
   - [x] Implementar método `range`
+- [x] Criar classe `ReadFile``
+  - [x] Implementar método `json`
 
 # O que preciso para rodar esse projeto?
 
