@@ -1,3 +1,3 @@
-import { gameLoop } from "./src/GameLoop.ts";
+import Game from "./src/Game.ts";
 
-gameLoop();
+new Game().start();

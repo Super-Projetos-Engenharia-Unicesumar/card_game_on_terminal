@@ -15,13 +15,18 @@ Se você quer saber como rodar o projeto, veja abaixo em [o que preciso para rod
   - [ ] Criar mensagem de saída e encerrar o programa
 - [ ] Loop inicial do jogo
   - [ ] ~~Loop principal ou~~ fazer uma classe `Game`
+    - [x] Criar arquivo de classe `Game`
+    - [x] Criar esqueletos de métodos básicos
     - [ ] Mostra total de pontos
     - [ ] Mostra cartas da mão
     - [ ] Escolhe carta da lista
     - [ ] Escolhe valor da carta
     - [ ] Verifica vencedor da rodada
     - [ ] Verifica se teve um vencedor da partida
-- [ ] Criar função para coletar `input` do jogador
+- [x] Criar classe `input` do jogador
+  - [x] Implementar método estático para retornar `string`
+  - [x] Implementar método estático para retornar `number`
+  - [x] Implementar método estático para aguardar pressionar uma tecla
 - [x] Criar classe de `Card`
   - [x] Propriedade `name`
   - [x] Propriedade `power`
